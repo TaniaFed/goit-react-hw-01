@@ -4,15 +4,15 @@ import TransactionHistoryItem from '../TransactionHistoryItem/TransactionHistory
 
 export default function TransactionHistory({ items }) {
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+    <table className={styling.tableBox}>
+      <thead className={styling.tableHead}>
+        <tr className={styling.tableHeadRow}>
+          <th className={styling.tableHeadText}>Type</th>
+          <th className={styling.tableHeadText}>Amount</th>
+          <th className={styling.tableHeadText}>Currency</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className={styling.tableBody}>
         {items.map((item) => (
           <TransactionHistoryItem
             key={item.id}

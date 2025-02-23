@@ -1,4 +1,4 @@
-table {
+table.tableBox {
     width: 100%;
     max-width: 760px;
     margin: 0 auto 50px;
@@ -6,17 +6,17 @@ table {
     border-collapse: collapse;
 }
 
-thead {
+thead.tableHead {
     font-size: 36px;
     color: #fff;
     background: #412c2c;
 }
 
-th {
+th.tableHeadText {
     border-right: 3px solid #000;
 }
 
-tbody {
+tbody.tableBody {
     font-size: 28px;
 }
 
