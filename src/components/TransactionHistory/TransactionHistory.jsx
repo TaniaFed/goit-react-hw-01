@@ -1,4 +1,4 @@
-// import transactions from '../transactions.json'
+import styling from './TransactionHistory.module.css';
 
 import TransactionHistoryItem from '../TransactionHistoryItem/TransactionHistoryItem';
 
@@ -6,7 +6,7 @@ export default function TransactionHistory({ items }) {
   return (
     <table>
       <thead>
-        <tr className="tableHeader">
+        <tr>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>

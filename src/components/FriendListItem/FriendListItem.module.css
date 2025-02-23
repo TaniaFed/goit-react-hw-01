@@ -9,7 +9,11 @@
 .friendNameText {
     font-size: 32px;
 }
-.status {
-    font-size: 24px;
-    color: #15e542;
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
 }
